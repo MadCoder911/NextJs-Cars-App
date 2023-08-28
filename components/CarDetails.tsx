@@ -36,11 +36,11 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <Dialog.Panel className="text-left shadow-xl transition-all flex gap-5 flex-col relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white">
+                <Dialog.Panel className="text-left shadow-xl transition-all flex gap-5 flex-col relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white p-6">
                   <button
                     type="button"
                     onClick={closeModal}
-                    className="absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 rounded-4"
+                    className="absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100  rounded-[50px] hover:scale-[120%] transition-all hover:bg-slate-200 "
                   >
                     <Image
                       src="/close.svg"
